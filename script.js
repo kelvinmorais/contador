@@ -22,12 +22,14 @@ function contar(){
             for(let c = inicio ; c < fim ; c += intervalo){
                 res.innerHTML += `  ${c} \u{27A1}`
         }
+        
     } else if (iniciof.value > fimf.value){
         for(let c = inicio ; c > fim ; c-= intervalo){
             res.innerHTML += `  ${c} \u{27A1}`
     }
-    res.innerHTML += `\u{2705}`  
+    
 }
+res.innerHTML += `\u{2705}` 
 }
 }
         
